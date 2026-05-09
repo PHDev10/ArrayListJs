@@ -1,6 +1,6 @@
-#Explicando o funcionamento dos métodos **map**, **filter** e **reduce** em **Javascript**
+# Explicando o funcionamento dos métodos **map**, **filter** e **reduce** em **Javascript**
 
-##Autor
+## Autor
 
 Feito por **Pedro Henrique Santos de Pontes**
 
@@ -24,7 +24,7 @@ Arrow Function:
 metodo(() => console.log("Olá com arrow function!"));
 ```
 
-##Método **map**##
+## Método **map**
 
 Sintaxe:
 
@@ -63,7 +63,7 @@ Mas o `map` não cria apenas "cópias de array". Ele permite criar arrays novas 
 
 Utilizando o `map`, o código fica muito mais enxuto, se comparado ao uso sucessivo do `for`, e o resultado pretendido - médias dos alunos - é alcançado, além de conseguir fazer isso independetemente do número de dados que haja dentro das arrays com as notas. O resultado de cada média ficará na mesma posição onde a array com as notas utilizadas para obter a média estava, garantindo maior organização.
 
-##Método **filter**##
+# #Método **filter**
 
 Sintaxe:
 
@@ -111,7 +111,7 @@ Com o uso do `filter`, uma array teve seus dados filtrados e salvos em uma nova 
 Nesse caso de uso, foram inseridos na nova lista apenas os "clientes" que possuíam um saldo maior ou igual a 1000. Dessa forma, o reduce permaneceu com o padrão da array original - salvando os dados como objetos conforme confirmava a condição. Em outro caso, se eu quisesse filtrar de outra forma, poderia retornar apenas o campo "nome" de cada objeto.
 O `filter` não modificou a lista original; ele extraiu os valores que eram pertinentes e os salvou com a mesma formatação e em ordem, pois pode-se ver que, na array original, o cliente de nome "João" estava antes do que o cliente de nome "Maria.
 
-##Método **reduce**##
+## Método **reduce**
 
 Sintaxe:
 
