@@ -1,4 +1,4 @@
-#Explicando o funcionamento dos métodos **map**, **filter** e **reduce** em **Javascript**#
+#Explicando o funcionamento dos métodos **map**, **filter** e **reduce** em **Javascript**
 
 ##Autor
 
